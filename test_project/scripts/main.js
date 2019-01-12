@@ -31,3 +31,11 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function(){
     setUserName();
 }
+//Добавляем full screen onclick
+document.onclick = function(event){
+    if(document.fullscreenElement){
+        document.exitFullscreen();
+    }else {
+        document.documentElement.requestFullscreen();
+    }
+};
