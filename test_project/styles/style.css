@@ -16,17 +16,21 @@ body{
     border: 5px solid black;
     position:static;
 }
+a{
+    color:azure;
+}
 
 h1 {
     margin: 0;
     padding: 2opx 0;
-    color:cadetblue;
+    color:cornflowerblue;
     text-shadow: 3px 3px 1px black;
     font-size: 60px;
     text-align: center;
 }
 
 p, li{
+    color: white;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
@@ -44,8 +48,28 @@ video {
     
     
 }
+body {
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+}
 button {
+    position: absolute;
+    top: 0px;
+    right: 540px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    box-shadow: 5px 20px 20px 20px white;
+    text-shadow: 1px 10px 20px 20px;
     display: block;
     margin: 0 auto;
     padding: 0 30px 30px 30px 30px;
+}
+#Hello {
+    position: absolute;
+    top: 0px;
+    right:   1280px;
+    bottom: 300px;
 }

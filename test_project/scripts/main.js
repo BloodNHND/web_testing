@@ -39,3 +39,7 @@ document.onclick = function(event){
         document.documentElement.requestFullscreen();
     }
 };
+var myButtonHello = document.getElementById("Hello");
+myButtonHello.onclick = function(){
+    alert("Добро пожаловать на мою страничку!!!");
+};
