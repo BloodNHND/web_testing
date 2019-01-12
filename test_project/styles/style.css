@@ -36,6 +36,12 @@ img{
     width: 400px;
     height: 400px;
 }
+video {
+    display:block;
+    width: 600px;
+    
+    
+}
 button {
     display: block;
     margin: 0 auto;
