@@ -3,6 +3,7 @@ html {
     font-family: 'Montserrat';
     background-color:azure;
     background-image: url("../images/background.jpg");
+    background-attachment: fixed;
     
 }
 
