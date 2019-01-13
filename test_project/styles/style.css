@@ -50,6 +50,7 @@ video {
     
 }
 body {
+  display: grid;
   background: #664368;
   background: -webkit-linear-gradient(#648880, #223f50);
   background:    -moz-linear-gradient(#645850, #293550);
@@ -75,4 +76,10 @@ button {
     top: 0px;
     right:   1280px;
     bottom: 300px;
+}
+.main{
+    display:grid;
+    padding: 0;
+    margin:0 auto;
+    background: cadetblue;
 }
