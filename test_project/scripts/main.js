@@ -37,9 +37,12 @@ document.onclick = function(event){
         document.exitFullscreen();
     }else {
         document.documentElement.requestFullscreen();
+        
     }
 };
+//add id Hello alert()
 var myButtonHello = document.getElementById("Hello");
 myButtonHello.onclick = function(){
     alert("Добро пожаловать на мою страничку!!!");
 };
+ringContext.texImage("body");

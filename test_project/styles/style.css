@@ -50,23 +50,25 @@ video {
     
 }
 body {
-  background: #466368;
-  background: -webkit-linear-gradient(#648880, #293f50);
-  background:    -moz-linear-gradient(#648880, #293f50);
-  background:         linear-gradient(#648880, #293f50);
+  background: #664368;
+  background: -webkit-linear-gradient(#648880, #223f50);
+  background:    -moz-linear-gradient(#645850, #293550);
+  background:         linear-gradient(#643280, #293250);
 }
 button {
     position: absolute;
     top: 0px;
     right: 540px;
-    width: 100px;
+    width: 120px;
     height: 100px;
     color: black;
-    box-shadow: 5px 20px 20px 20px white;
+    box-shadow: 5px 10px 10px 10px black;
     text-shadow: 1px 10px 20px 20px;
+    background-color:cornflowerblue;
     display: block;
     margin: 0 auto;
     padding: 0 30px 30px 30px 30px;
+    font-size: 16px;
 }
 #Hello {
     position: absolute;
