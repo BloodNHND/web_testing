@@ -85,7 +85,27 @@ button {
     background: cadetblue;
 }
 
-svg{
-    background-color: rgba(0,125,215, 0.3);
+.SVG{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#HeaderTable{
+    padding: 0, 20px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+table{
+    font-style: normal;
+    font-size: 1.4em;
+    border: 1px 2px;
+    box-shadow: 12px 1px 10px 10px white;
+   
     
+}
+tr{
+    font:white;
+}
+td{
+    background: white;
 }
